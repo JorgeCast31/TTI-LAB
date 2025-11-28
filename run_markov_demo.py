@@ -6,6 +6,7 @@ from visualizations.plots import (
     plot_trajectory,
     plot_transition_matrix,
 )
+import matplotlib.pyplot as plt
 
 
 def main():
@@ -25,6 +26,13 @@ def main():
     plot_transition_matrix(T)
     plot_trajectory(traj)
     plot_entropy(H)
+
+    # Mostrar las figuras (necesario cuando se ejecuta como script)
+    try:
+        plt.show()
+    except Exception:
+        # Si no hay backend gráfico disponible, no hacemos nada
+        pass
 
 
 if __name__ == "__main__":
