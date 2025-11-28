@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code
+.vscode/
+
+# IPython/Jupyter
+.ipynb_checkpoints
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual envs
+.env
+.venv/
+venv/
+
+# Pytest
+.pytest_cache/
+
+# IDEs
+.idea/
+
+# Data and results (kept out of repo)
+data/
+results/
+
+# Others
+*.log

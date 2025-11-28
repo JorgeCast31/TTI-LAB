@@ -1,0 +1,27 @@
+﻿# Core numeric and scientific
+numpy>=1.24
+scipy>=1.10
+sympy>=1.12
+
+# Information theory libraries
+dit>=0.6.0
+pyitlib>=0.3.0
+infomeasure>=0.1.0
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12
+plotly>=5.15
+
+# Autograd / tensors
+torch>=2.0
+
+# Data
+pandas>=2.0
+
+# Testing and tooling
+pytest>=7.0
+numba>=0.56
+networkx>=3.0
+scikit-learn>=1.0
+jupyterlab>=4.0
