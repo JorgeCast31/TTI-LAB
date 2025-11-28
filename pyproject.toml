@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tti_lab"
+version = "0.1.0"
+description = "TTI Lab — computational tools for informational simulations"
+authors = [{name = "TTI Lab Developer", email = "dev@tti-lab.local"}]
+
+[tool.setuptools.packages.find]
+where = ["."]
