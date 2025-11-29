@@ -1,7 +1,7 @@
 from __future__ import annotations
 import numpy as np
 from typing import Callable
-from ..core.fields import DiscreteField2D
+from ....core.fields import DiscreteField2D
 
 def step_ca(field: DiscreteField2D, rule_fn: Callable[[np.ndarray], np.ndarray]) -> DiscreteField2D:
     """

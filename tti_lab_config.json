@@ -1,0 +1,19 @@
+{
+  "project_name": "tti-lab",
+  "version": "0.1.0",
+  "author": "JORECAST",
+  "use_jax": false,
+  "default_backend": "numpy",
+  "paths": {
+    "data_dir": "data",
+    "results_dir": "results"
+  },
+  "optimization": {
+    "use_numba": true,
+    "vectorize": true
+  },
+  "optional_packages": {
+    "qutip": false,
+    "brian2": false
+  }
+}

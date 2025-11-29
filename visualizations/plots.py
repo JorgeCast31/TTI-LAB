@@ -8,8 +8,11 @@ y matrices de transición en el laboratorio TTI.
 
 from __future__ import annotations
 
+import matplotlib
+matplotlib.use("TkAgg")  # fuerza backend con ventana
 import matplotlib.pyplot as plt
 import numpy as np
+
 from typing import Sequence, Optional
 
 
@@ -25,6 +28,14 @@ __all__ = [
 # 1. Distribución instantánea p(t)
 # ============================================================
 
+def main():
+    ...
+    plot_transition_matrix(T)
+    plot_trajectory(traj)
+    plot_entropy(H)
+
+    print("Simulación terminada. Cierra las ventanas para continuar.")
+    plt.show(block=True)
 
 def plot_distribution(
     p: np.ndarray,
